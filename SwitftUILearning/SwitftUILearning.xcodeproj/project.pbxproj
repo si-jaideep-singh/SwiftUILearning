@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814B29062BD8EBFF00C556EF /* OnAppearBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B29052BD8EBFF00C556EF /* OnAppearBootCamp.swift */; };
+		814B290A2BD9056D00C556EF /* IfGuardBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B29092BD9056D00C556EF /* IfGuardBootCamp.swift */; };
+		814B290C2BD91A5700C556EF /* CustomModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B290B2BD91A5700C556EF /* CustomModelBootCamp.swift */; };
+		814B290E2BD9282B00C556EF /* ViewModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B290D2BD9282B00C556EF /* ViewModelBootCamp.swift */; };
+		814B29102BDB9D9700C556EF /* SheetBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B290F2BDB9D9700C556EF /* SheetBootCamp.swift */; };
+		818BBC602BCD0E1E00275658 /* SwitftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC5F2BCD0E1E00275658 /* SwitftUILearningApp.swift */; };
+		818BBC622BCD0E1E00275658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC612BCD0E1E00275658 /* ContentView.swift */; };
+		818BBC642BCD0E2000275658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818BBC632BCD0E2000275658 /* Assets.xcassets */; };
+		818BBC672BCD0E2000275658 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818BBC662BCD0E2000275658 /* Preview Assets.xcassets */; };
+		818BBC6E2BCD0E7A00275658 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC6D2BCD0E7A00275658 /* TextBootcamp.swift */; };
+		818BBC702BCE519200275658 /* ColorBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC6F2BCE519200275658 /* ColorBootCamp.swift */; };
+		818BBC722BCE54BE00275658 /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC712BCE54BE00275658 /* GradientBootcamp.swift */; };
+		818BBC742BCE5A6D00275658 /* IconBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC732BCE5A6D00275658 /* IconBootCamp.swift */; };
+		818BBC762BCE81FF00275658 /* FrameBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC752BCE81FF00275658 /* FrameBootCamp.swift */; };
+		818BBC782BCFA35900275658 /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC772BCFA35900275658 /* StacksBootcamp.swift */; };
+		818BBC7A2BD0F29700275658 /* PaddingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC792BD0F29700275658 /* PaddingBootCamp.swift */; };
+		818BBC7C2BD1008E00275658 /* SpacerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC7B2BD1008E00275658 /* SpacerBootCamp.swift */; };
+		818BBC7E2BD10B9D00275658 /* InitializerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC7D2BD10B9D00275658 /* InitializerBootCamp.swift */; };
+		818BBC802BD1172A00275658 /* ForEachBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC7F2BD1172A00275658 /* ForEachBootCamp.swift */; };
+		818BBC822BD11C6500275658 /* ScrollViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC812BD11C6500275658 /* ScrollViewBootCamp.swift */; };
+		818BBC842BD13F3F00275658 /* GridBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC832BD13F3F00275658 /* GridBootCamp.swift */; };
+		818BBC862BD14B8B00275658 /* SafeAreaBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC852BD14B8B00275658 /* SafeAreaBootCamp.swift */; };
+		818BBC882BD14E8500275658 /* ButtonsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC872BD14E8500275658 /* ButtonsBootCamp.swift */; };
+		818BBC8A2BD154D100275658 /* StatePropertyBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC892BD154D100275658 /* StatePropertyBootCamp.swift */; };
+		818BBC8C2BD1606800275658 /* SubViewsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC8B2BD1606800275658 /* SubViewsBootCamp.swift */; };
+		818BBC8E2BD1648800275658 /* BindingPropertyBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC8D2BD1648800275658 /* BindingPropertyBootCamp.swift */; };
+		818BBC902BD2500400275658 /* TransitionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC8F2BD2500400275658 /* TransitionBootCamp.swift */; };
+		818BBC922BD27A4100275658 /* SheetsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC912BD27A4100275658 /* SheetsBootCamp.swift */; };
+		818BBC942BD644EE00275658 /* NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC932BD644EE00275658 /* NavigationLink.swift */; };
+		818BBC962BD6500200275658 /* ListsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC952BD6500200275658 /* ListsBootCamp.swift */; };
+		818BBC982BD792C800275658 /* AlertBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC972BD792C800275658 /* AlertBootCamp.swift */; };
+		818BBC9A2BD7B54400275658 /* ContextMenuBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC992BD7B54400275658 /* ContextMenuBootCamp.swift */; };
+		818BBC9C2BD7B8F200275658 /* TextFieldBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC9B2BD7B8F200275658 /* TextFieldBootCamp.swift */; };
+		818BBC9E2BD7C4BC00275658 /* PickerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC9D2BD7C4BC00275658 /* PickerBootCamp.swift */; };
+		818BBCA02BD7C93D00275658 /* StepperBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBC9F2BD7C93D00275658 /* StepperBootCamp.swift */; };
+		818BBCA22BD7EBFB00275658 /* TableViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BBCA12BD7EBFB00275658 /* TableViewBootCamp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		814B29052BD8EBFF00C556EF /* OnAppearBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootCamp.swift; sourceTree = "<group>"; };
+		814B29092BD9056D00C556EF /* IfGuardBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfGuardBootCamp.swift; sourceTree = "<group>"; };
+		814B290B2BD91A5700C556EF /* CustomModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelBootCamp.swift; sourceTree = "<group>"; };
+		814B290D2BD9282B00C556EF /* ViewModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootCamp.swift; sourceTree = "<group>"; };
+		814B290F2BDB9D9700C556EF /* SheetBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBootCamp.swift; sourceTree = "<group>"; };
+		818BBC5C2BCD0E1E00275658 /* SwitftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818BBC5F2BCD0E1E00275658 /* SwitftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitftUILearningApp.swift; sourceTree = "<group>"; };
+		818BBC612BCD0E1E00275658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		818BBC632BCD0E2000275658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		818BBC662BCD0E2000275658 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		818BBC6D2BCD0E7A00275658 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		818BBC6F2BCE519200275658 /* ColorBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBootCamp.swift; sourceTree = "<group>"; };
+		818BBC712BCE54BE00275658 /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
+		818BBC732BCE5A6D00275658 /* IconBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBootCamp.swift; sourceTree = "<group>"; };
+		818BBC752BCE81FF00275658 /* FrameBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootCamp.swift; sourceTree = "<group>"; };
+		818BBC772BCFA35900275658 /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
+		818BBC792BD0F29700275658 /* PaddingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootCamp.swift; sourceTree = "<group>"; };
+		818BBC7B2BD1008E00275658 /* SpacerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootCamp.swift; sourceTree = "<group>"; };
+		818BBC7D2BD10B9D00275658 /* InitializerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootCamp.swift; sourceTree = "<group>"; };
+		818BBC7F2BD1172A00275658 /* ForEachBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootCamp.swift; sourceTree = "<group>"; };
+		818BBC812BD11C6500275658 /* ScrollViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootCamp.swift; sourceTree = "<group>"; };
+		818BBC832BD13F3F00275658 /* GridBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootCamp.swift; sourceTree = "<group>"; };
+		818BBC852BD14B8B00275658 /* SafeAreaBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootCamp.swift; sourceTree = "<group>"; };
+		818BBC872BD14E8500275658 /* ButtonsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootCamp.swift; sourceTree = "<group>"; };
+		818BBC892BD154D100275658 /* StatePropertyBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyBootCamp.swift; sourceTree = "<group>"; };
+		818BBC8B2BD1606800275658 /* SubViewsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewsBootCamp.swift; sourceTree = "<group>"; };
+		818BBC8D2BD1648800275658 /* BindingPropertyBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPropertyBootCamp.swift; sourceTree = "<group>"; };
+		818BBC8F2BD2500400275658 /* TransitionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootCamp.swift; sourceTree = "<group>"; };
+		818BBC912BD27A4100275658 /* SheetsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootCamp.swift; sourceTree = "<group>"; };
+		818BBC932BD644EE00275658 /* NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLink.swift; sourceTree = "<group>"; };
+		818BBC952BD6500200275658 /* ListsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsBootCamp.swift; sourceTree = "<group>"; };
+		818BBC972BD792C800275658 /* AlertBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootCamp.swift; sourceTree = "<group>"; };
+		818BBC992BD7B54400275658 /* ContextMenuBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootCamp.swift; sourceTree = "<group>"; };
+		818BBC9B2BD7B8F200275658 /* TextFieldBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBootCamp.swift; sourceTree = "<group>"; };
+		818BBC9D2BD7C4BC00275658 /* PickerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootCamp.swift; sourceTree = "<group>"; };
+		818BBC9F2BD7C93D00275658 /* StepperBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootCamp.swift; sourceTree = "<group>"; };
+		818BBCA12BD7EBFB00275658 /* TableViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewBootCamp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818BBC592BCD0E1E00275658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818BBC532BCD0E1E00275658 = {
+			isa = PBXGroup;
+			children = (
+				818BBC5E2BCD0E1E00275658 /* SwitftUILearning */,
+				818BBC5D2BCD0E1E00275658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818BBC5D2BCD0E1E00275658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818BBC5C2BCD0E1E00275658 /* SwitftUILearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818BBC5E2BCD0E1E00275658 /* SwitftUILearning */ = {
+			isa = PBXGroup;
+			children = (
+				818BBC5F2BCD0E1E00275658 /* SwitftUILearningApp.swift */,
+				818BBC612BCD0E1E00275658 /* ContentView.swift */,
+				818BBC6D2BCD0E7A00275658 /* TextBootcamp.swift */,
+				818BBC6F2BCE519200275658 /* ColorBootCamp.swift */,
+				818BBC712BCE54BE00275658 /* GradientBootcamp.swift */,
+				818BBC732BCE5A6D00275658 /* IconBootCamp.swift */,
+				818BBC752BCE81FF00275658 /* FrameBootCamp.swift */,
+				818BBC772BCFA35900275658 /* StacksBootcamp.swift */,
+				818BBC792BD0F29700275658 /* PaddingBootCamp.swift */,
+				818BBC7B2BD1008E00275658 /* SpacerBootCamp.swift */,
+				818BBC7D2BD10B9D00275658 /* InitializerBootCamp.swift */,
+				818BBC7F2BD1172A00275658 /* ForEachBootCamp.swift */,
+				818BBC812BD11C6500275658 /* ScrollViewBootCamp.swift */,
+				818BBC832BD13F3F00275658 /* GridBootCamp.swift */,
+				818BBC852BD14B8B00275658 /* SafeAreaBootCamp.swift */,
+				818BBC872BD14E8500275658 /* ButtonsBootCamp.swift */,
+				818BBC892BD154D100275658 /* StatePropertyBootCamp.swift */,
+				818BBC8B2BD1606800275658 /* SubViewsBootCamp.swift */,
+				818BBC8D2BD1648800275658 /* BindingPropertyBootCamp.swift */,
+				818BBC8F2BD2500400275658 /* TransitionBootCamp.swift */,
+				818BBC932BD644EE00275658 /* NavigationLink.swift */,
+				818BBC952BD6500200275658 /* ListsBootCamp.swift */,
+				818BBC972BD792C800275658 /* AlertBootCamp.swift */,
+				818BBC992BD7B54400275658 /* ContextMenuBootCamp.swift */,
+				818BBC9B2BD7B8F200275658 /* TextFieldBootCamp.swift */,
+				818BBC9D2BD7C4BC00275658 /* PickerBootCamp.swift */,
+				818BBC9F2BD7C93D00275658 /* StepperBootCamp.swift */,
+				818BBCA12BD7EBFB00275658 /* TableViewBootCamp.swift */,
+				814B29052BD8EBFF00C556EF /* OnAppearBootCamp.swift */,
+				814B29092BD9056D00C556EF /* IfGuardBootCamp.swift */,
+				814B290B2BD91A5700C556EF /* CustomModelBootCamp.swift */,
+				814B290D2BD9282B00C556EF /* ViewModelBootCamp.swift */,
+				814B290F2BDB9D9700C556EF /* SheetBootCamp.swift */,
+				818BBC912BD27A4100275658 /* SheetsBootCamp.swift */,
+				818BBC632BCD0E2000275658 /* Assets.xcassets */,
+				818BBC652BCD0E2000275658 /* Preview Content */,
+			);
+			path = SwitftUILearning;
+			sourceTree = "<group>";
+		};
+		818BBC652BCD0E2000275658 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				818BBC662BCD0E2000275658 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818BBC5B2BCD0E1E00275658 /* SwitftUILearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818BBC6A2BCD0E2000275658 /* Build configuration list for PBXNativeTarget "SwitftUILearning" */;
+			buildPhases = (
+				818BBC582BCD0E1E00275658 /* Sources */,
+				818BBC592BCD0E1E00275658 /* Frameworks */,
+				818BBC5A2BCD0E1E00275658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitftUILearning;
+			productName = SwitftUILearning;
+			productReference = 818BBC5C2BCD0E1E00275658 /* SwitftUILearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818BBC542BCD0E1E00275658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					818BBC5B2BCD0E1E00275658 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 818BBC572BCD0E1E00275658 /* Build configuration list for PBXProject "SwitftUILearning" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818BBC532BCD0E1E00275658;
+			productRefGroup = 818BBC5D2BCD0E1E00275658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818BBC5B2BCD0E1E00275658 /* SwitftUILearning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818BBC5A2BCD0E1E00275658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818BBC672BCD0E2000275658 /* Preview Assets.xcassets in Resources */,
+				818BBC642BCD0E2000275658 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818BBC582BCD0E1E00275658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818BBC842BD13F3F00275658 /* GridBootCamp.swift in Sources */,
+				818BBC8E2BD1648800275658 /* BindingPropertyBootCamp.swift in Sources */,
+				818BBC622BCD0E1E00275658 /* ContentView.swift in Sources */,
+				818BBC982BD792C800275658 /* AlertBootCamp.swift in Sources */,
+				818BBC802BD1172A00275658 /* ForEachBootCamp.swift in Sources */,
+				818BBC762BCE81FF00275658 /* FrameBootCamp.swift in Sources */,
+				818BBC922BD27A4100275658 /* SheetsBootCamp.swift in Sources */,
+				814B290A2BD9056D00C556EF /* IfGuardBootCamp.swift in Sources */,
+				818BBC882BD14E8500275658 /* ButtonsBootCamp.swift in Sources */,
+				814B29062BD8EBFF00C556EF /* OnAppearBootCamp.swift in Sources */,
+				818BBC822BD11C6500275658 /* ScrollViewBootCamp.swift in Sources */,
+				818BBC9E2BD7C4BC00275658 /* PickerBootCamp.swift in Sources */,
+				814B29102BDB9D9700C556EF /* SheetBootCamp.swift in Sources */,
+				818BBC902BD2500400275658 /* TransitionBootCamp.swift in Sources */,
+				818BBC6E2BCD0E7A00275658 /* TextBootcamp.swift in Sources */,
+				818BBCA22BD7EBFB00275658 /* TableViewBootCamp.swift in Sources */,
+				818BBC8A2BD154D100275658 /* StatePropertyBootCamp.swift in Sources */,
+				818BBC8C2BD1606800275658 /* SubViewsBootCamp.swift in Sources */,
+				818BBC722BCE54BE00275658 /* GradientBootcamp.swift in Sources */,
+				818BBC9C2BD7B8F200275658 /* TextFieldBootCamp.swift in Sources */,
+				818BBCA02BD7C93D00275658 /* StepperBootCamp.swift in Sources */,
+				814B290E2BD9282B00C556EF /* ViewModelBootCamp.swift in Sources */,
+				818BBC9A2BD7B54400275658 /* ContextMenuBootCamp.swift in Sources */,
+				814B290C2BD91A5700C556EF /* CustomModelBootCamp.swift in Sources */,
+				818BBC702BCE519200275658 /* ColorBootCamp.swift in Sources */,
+				818BBC782BCFA35900275658 /* StacksBootcamp.swift in Sources */,
+				818BBC7E2BD10B9D00275658 /* InitializerBootCamp.swift in Sources */,
+				818BBC7C2BD1008E00275658 /* SpacerBootCamp.swift in Sources */,
+				818BBC962BD6500200275658 /* ListsBootCamp.swift in Sources */,
+				818BBC862BD14B8B00275658 /* SafeAreaBootCamp.swift in Sources */,
+				818BBC7A2BD0F29700275658 /* PaddingBootCamp.swift in Sources */,
+				818BBC942BD644EE00275658 /* NavigationLink.swift in Sources */,
+				818BBC602BCD0E1E00275658 /* SwitftUILearningApp.swift in Sources */,
+				818BBC742BCE5A6D00275658 /* IconBootCamp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		818BBC682BCD0E2000275658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		818BBC692BCD0E2000275658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		818BBC6B2BCD0E2000275658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwitftUILearning/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sportzinteractive.SwitftUILearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		818BBC6C2BCD0E2000275658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwitftUILearning/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sportzinteractive.SwitftUILearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818BBC572BCD0E1E00275658 /* Build configuration list for PBXProject "SwitftUILearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818BBC682BCD0E2000275658 /* Debug */,
+				818BBC692BCD0E2000275658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818BBC6A2BCD0E2000275658 /* Build configuration list for PBXNativeTarget "SwitftUILearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818BBC6B2BCD0E2000275658 /* Debug */,
+				818BBC6C2BCD0E2000275658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818BBC542BCD0E1E00275658 /* Project object */;
+}
