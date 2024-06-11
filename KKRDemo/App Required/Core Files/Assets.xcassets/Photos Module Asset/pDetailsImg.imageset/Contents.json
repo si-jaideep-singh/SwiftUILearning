@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "pDetailsImg.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "unlock_badges.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "la_matchCard_live_bg.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "squad_detail_bgimg.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

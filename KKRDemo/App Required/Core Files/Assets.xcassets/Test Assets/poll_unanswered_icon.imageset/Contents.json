@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "poll_unanswered_icon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

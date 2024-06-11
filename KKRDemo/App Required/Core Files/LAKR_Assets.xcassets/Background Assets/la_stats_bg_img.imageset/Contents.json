@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "la_stats_bg_img.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

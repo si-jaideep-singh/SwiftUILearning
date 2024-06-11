@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ShopCVC_Img.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

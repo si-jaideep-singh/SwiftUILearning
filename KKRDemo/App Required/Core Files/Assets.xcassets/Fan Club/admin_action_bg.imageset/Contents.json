@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "admin_action_bg.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
